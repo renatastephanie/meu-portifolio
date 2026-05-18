@@ -1,0 +1,42 @@
+.skillsContainer{
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 30px;
+
+  .item{
+    .info{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 8px;
+    }
+
+    .nome{
+      font-weight: bold;
+      color: var(--texto);
+      i {
+        margin-right: 8px;
+      }
+    }
+
+    .porcent{
+      font-weight: bold;
+      color: var(--destaque);
+    }
+
+    .barra{
+      width: 100%;
+      background-color: var(--fundo-principal);
+      height: 8px;
+      border-radius: 4px;
+      overflow: hidden;
+    }
+
+    .progress {
+      height: 100%;
+      background-color: var(--destaque-inverso);
+      border-radius: 4px;
+      transition: width 1s ease-out; // Transição suave caso queira animar no futuro
+    }
+  }
+}
