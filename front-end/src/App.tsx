@@ -1,4 +1,4 @@
-import { AboutVideo } from "./components/AboutVideo/AboutVideo";
+// import { AboutVideo } from "./components/AboutVideo/AboutVideo";
 import { Education } from "./components/Education/Education";
 import { Footer } from "./components/Footer/Footer";
 import { Header } from "./components/Header/Header";
@@ -15,7 +15,7 @@ function App() {
       </main>
 
       <section id="detalhes">
-        <AboutVideo />
+        {/* <AboutVideo /> */}
         <Skills />
         <Education />
         <Projects />
