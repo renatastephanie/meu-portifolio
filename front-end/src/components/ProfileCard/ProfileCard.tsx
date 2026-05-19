@@ -1,10 +1,11 @@
 import styles from "./ProfileCard.module.scss";
+import fotoPerfil from '../../assets/renata-perfil.jpg';
 
 export const ProfileCard = () => {
   return (
     <section className={styles.ficha}>
       <img
-        src="./src/assets/renata-perfil.jpg"
+        src={fotoPerfil}
         alt="Foto de Perfil"
         className={styles.foto}
       />
