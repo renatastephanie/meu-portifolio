@@ -8,21 +8,15 @@ interface IEducationItem {
 
 const meusCursos: IEducationItem[] = [
   {
-    periodo: "1998 - 2000",
-    instituicao: "Centro de Graduação de Professores",
-    titulacao: "Licenciatura em Informática",
+    periodo: "2022 - 2024",
+    instituicao: "Unicesumar",
+    titulacao: "Análise e Desenvolvimento de Sistemas",
   },
 
   {
-    periodo: "1995 - 2000",
-    instituicao: "Centro de Graduação de Professores",
-    titulacao: "Licenciatura em Informática",
-  },
-
-  {
-    periodo: "1995 - 2000",
-    instituicao: "Centro de Graduação de Professores",
-    titulacao: "Licenciatura em Informática",
+    periodo: "2024 - 2025",
+    instituicao: "Unicesumar",
+    titulacao: "Desenvolvimento de Aplicações Móveis",
   },
 ];
 
