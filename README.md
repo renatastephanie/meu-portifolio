@@ -1,175 +1,79 @@
-# Portfólio Pessoal
+# 🗂️ Portfólio Pessoal — Renata Stephanie
 
-Um site de portfólio moderno e responsivo desenvolvido com **React**, **TypeScript** e **Vite**, apresentando projetos, habilidades, educação e informações profissionais.
+ Portfólio moderno e responsivo, desenvolvido com **React**, **TypeScript** e **Vite**, com deploy no **Vercel**.
 
-## 📋 Descrição
+## 🌐 Acesse o Portfólio
 
-Este projeto é um portfólio digital completo que showcasa habilidades técnicas, experiência profissional, educação e projetos desenvolvidos. O site é totalmente responsivo e oferece uma experiência de usuário fluida e intuitiva.
+🔗 **[Clique Aqui](https://meu-portifolio-5hm3.vercel.app)**
 
-## 🎯 Características
+## 📋 Sobre o Projeto
 
-- ✨ Design moderno e responsivo
-- 🚀 Construído com React 19 + TypeScript
-- ⚡ Vite para build otimizado
-- 🎨 Estilos com SASS
-- 📱 Mobile-first approach
-- 🔍 ESLint configurado para qualidade de código
-- ♿ Acessibilidade em mente
-- 📖 Conteúdo estruturado em seções
+Este projeto é um portfólio digital completo que apresenta minhas habilidades técnicas, experiência profissional, formação acadêmica e projetos desenvolvidos. O site é totalmente responsivo e oferece uma experiência de usuário fluida e intuitiva.
 
-## 🏗️ Estrutura do Projeto
+## 🛠️ Tecnologias Utilizadas
 
-```
-front-end/
-├── src/
-│   ├── components/
-│   │   ├── Header/           # Cabeçalho com navegação
-│   │   ├── ProfileCard/      # Cartão de apresentação pessoal
-│   │   ├── Skills/           # Seção de habilidades
-│   │   ├── Education/        # Seção de educação
-│   │   ├── Projects/         # Seção de projetos
-│   │   ├── Footer/           # Rodapé
-│   │   └── AboutVideo/       # (Opcional) Seção de vídeo sobre mim
-│   ├── assets/               # Recursos estáticos (imagens, ícones)
-│   ├── App.tsx              # Componente raiz
-│   ├── main.tsx             # Ponto de entrada
-│   └── index.scss           # Estilos globais
-├── public/                   # Arquivos públicos estáticos
-├── index.html               # HTML principal
-├── package.json             # Dependências e scripts
-├── tsconfig.json           # Configuração TypeScript
-├── vite.config.ts          # Configuração Vite
-└── eslint.config.js        # Configuração ESLint
-```
+| Tecnologia | Versão | Função |
+|---|---|---|
+| React | ^19.2.6 | Biblioteca de UI |
+| TypeScript | ~6.0.2 | Tipagem estática |
+| Vite | ^8.0.12 | Bundler e dev server |
+| SASS | ^1.99.0 | Estilização |
+| Font Awesome | CDN | Ícones |
 
-## 🛠️ Seções do Portfólio
-
-### Header
-Cabeçalho navegável com links para as diferentes seções do portfólio.
-
-### Profile Card
-Cartão de apresentação pessoal com foto, nome e breve descrição.
-
-### Skills (Habilidades)
-Apresentação das competências técnicas e profissionais.
-
-### Education (Educação)
-Histórico educacional e certificações.
-
-### Projects (Projetos)
-Showcase dos projetos desenvolvidos com descrições e links.
-
-### Footer
-Rodapé com informações de contato e links sociais.
-
-## 🚀 Como Começar
+## 🚀 Como Rodar Localmente
 
 ### Pré-requisitos
 
-- Node.js (v18 ou superior)
+- Node.js v18 ou superior
 - npm ou yarn
 
-### Instalação
+### Passo a passo
 
-1. Clone o repositório:
 ```bash
-git clone <repositorio-url>
-cd meu-portifolio
-```
+# 1. Clone o repositório
+git clone https://github.com/renatastephanie/meu-portifolio.git
+cd meu-portifolio/front-end
 
-2. Instale as dependências:
-```bash
-cd front-end
+# 2. Instale as dependências
 npm install
-```
 
-### Desenvolvimento
-
-Para iniciar o servidor de desenvolvimento:
-```bash
+# 3. Inicie o servidor de desenvolvimento
 npm run dev
 ```
 
-O servidor estará disponível em `http://localhost:5173`
+Acesse em: `http://localhost:5173`
 
-### Build para Produção
-
-Para construir o projeto para produção:
-```bash
-npm run build
-```
-
-Os arquivos otimizados serão gerados na pasta `dist/`
-
-## 🎨 Estilos
-
-O projeto utiliza **SASS** para estilos CSS mais eficientes e organizados. Os estilos globais estão em `src/index.scss` e cada componente possui seus próprios arquivos SCSS.
-
-### Ícones
-
-O projeto utiliza **Font Awesome** para ícones. Link CDN incluído no `index.html`.
-
-## 💡 Scripts Disponíveis
+## 📦 Scripts Disponíveis
 
 | Script | Descrição |
-|--------|-----------|
+|---|---|
 | `npm run dev` | Inicia o servidor de desenvolvimento com hot reload |
-| `npm run build` | Compila TypeScript e realiza build de produção |
-| `npm run lint` | Verifica a qualidade do código com ESLint |
+| `npm run build` | Compila TypeScript e gera build de produção |
 | `npm run preview` | Preview local da build de produção |
+| `npm run lint` | Verifica a qualidade do código com ESLint |
 
-## 🔧 Configuração
+## ☁️ Deploy
 
-### TypeScript
-- **tsconfig.json** - Configuração base
-- **tsconfig.app.json** - Configuração específica da aplicação
-- **tsconfig.node.json** - Configuração para ferramentas de build
+O projeto está hospedado na **Vercel** com deploy contínuo — qualquer `push` na branch `main` dispara um novo deploy automaticamente.
 
-### ESLint
-Configurado para manter qualidade de código com suporte a:
-- React Hooks
-- React Refresh
-- TypeScript
+Configuração utilizada:
 
-### Vite
-Otimizado para desenvolvimento rápido com HMR (Hot Module Replacement).
-
-## 📱 Responsividade
-
-O portfólio é desenvolvido com abordagem **mobile-first**, garantindo excelente visualização em:
-- Smartphones (320px+)
-- Tablets (768px+)
-- Desktops (1024px+)
-
-## 🌐 Idioma
-
-A aplicação está configurada para o português brasileiro (`pt-br`).
-
-## 📝 Licença
-
-[Especifique a licença do projeto aqui]
-
-## 👤 Autor
+```json
+{
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/" }
+  ]
+}
+```
+## 👩‍💻 Autora
 
 **Renata Stephanie**
 
-- GitHub: [@renatastephanie](https://github.com/renatastephanie)
-- Email: [Seu email]
-- LinkedIn: [Seu LinkedIn]
+[Linkedin](https://www.linkedin.com/in/renata-stephanie/)
 
-## 🤝 Contribuições
+---
 
-Contribuições são bem-vindas! Para contribuir:
+## 📝 Licença
 
-1. Fork o projeto
-2. Crie uma branch para sua feature (`git checkout -b feature/AmazingFeature`)
-3. Commit suas mudanças (`git commit -m 'Add some AmazingFeature'`)
-4. Push para a branch (`git push origin feature/AmazingFeature`)
-5. Abra um Pull Request
-
-## 📧 Contato
-
-Para mais informações ou dúvidas, entre em contato através das redes sociais ou email.
-
-
+Este projeto está sob a licença **MIT**. Sinta-se à vontade para se inspirar! 😊
 
