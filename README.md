@@ -101,34 +101,6 @@ npm run build
 
 Os arquivos otimizados serão gerados na pasta `dist/`
 
-### Preview da Build
-
-Para visualizar a build de produção localmente:
-```bash
-npm run preview
-```
-
-### Linting
-
-Para verificar a qualidade do código:
-```bash
-npm run lint
-```
-
-## 📦 Dependências
-
-### Dependências Principais
-- **react** (^19.2.6) - Biblioteca JavaScript para construir interfaces
-- **react-dom** (^19.2.6) - Renderização React para o DOM
-
-### Dependências de Desenvolvimento
-- **TypeScript** (~6.0.2) - Tipagem estática para JavaScript
-- **Vite** (^8.0.12) - Bundler e dev server ultrarrápido
-- **@vitejs/plugin-react** (^6.0.1) - Plugin React para Vite
-- **ESLint** (^10.3.0) - Linter para JavaScript/TypeScript
-- **SASS** (^1.99.0) - Preprocessador CSS
-- **typescript-eslint** (^8.59.2) - Suporte TypeScript no ESLint
-
 ## 🎨 Estilos
 
 O projeto utiliza **SASS** para estilos CSS mais eficientes e organizados. Os estilos globais estão em `src/index.scss` e cada componente possui seus próprios arquivos SCSS.
