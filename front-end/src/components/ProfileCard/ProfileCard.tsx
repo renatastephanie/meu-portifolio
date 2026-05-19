@@ -38,12 +38,12 @@ export const ProfileCard = () => {
           <i className="fa-brands fa-linkedin"></i>
         </a>
 
-        <a
+        {/* <a
           href="https://www.instagram.com/renatastephanie_/"
           target="_blank"
           rel="noopener noreferrer">
           <i className="fa-brands fa-instagram"></i>
-        </a>
+        </a> */}
       </div>
     </section>
   );
