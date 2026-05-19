@@ -26,7 +26,7 @@ export const Header = () => {
       <nav className={styles.menu}>
         <ul>
           <li>
-            <a href="#video" className={styles.link}>
+            <a href="#" className={styles.link}>
               <i className="fa-solid fa-house"></i>
             </a>
           </li>
