@@ -2,7 +2,7 @@ import styles from "./ProfileCard.module.scss";
 
 export const ProfileCard = () => {
   return (
-    <section className={styles.ficha}>
+    <section  className={styles.ficha}>
       <img
         src="./src/assets/guanabara-perfil.jpg"
         alt="Foto de Perfil"

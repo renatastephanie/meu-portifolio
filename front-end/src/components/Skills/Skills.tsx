@@ -19,7 +19,7 @@ const minhasSkills: ISkillItem[] = [
 
 export const Skills = () => {
   return (
-    <article id="Skills">
+    <article id="skills">
       <h2>
         <i className="fa-solid fa-brain"></i>
         Minhas Skills
