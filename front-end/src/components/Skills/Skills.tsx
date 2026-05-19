@@ -8,13 +8,13 @@ interface ISkillItem {
 }
 
 const minhasSkills: ISkillItem[] = [
-  { nome: "HTML5", porcentagem: 85, icone: "fa-brands fa-html5" },
-  { nome: "CSS3", porcentagem: 85, icone: "fa-brands fa-css3-alt" },
-  { nome: "JavaScript", porcentagem: 80, icone: "fa-solid fa-code" },
-  { nome: "Comunicação", porcentagem: 90, icone: "fa-solid fa-comments" },
+  { nome: "HTML", porcentagem: 70, icone: "fa-brands fa-html5" },
+  { nome: "CSS", porcentagem: 70, icone: "fa-brands fa-css" },
+  { nome: "JavaScript", porcentagem: 70, icone: "fa-solid fa-code" },
+  { nome: "React.Js", porcentagem: 60, icone: "fa-brands fa-react" },
+  { nome: "Node.Js", porcentagem: 78, icone: "fa-brands fa-node-js" },
+  { nome: "Python", porcentagem: 42, icone: "fa-brands fa-python" },
   {nome: "Trabalho em Equipe",porcentagem: 90,icone: "fa-solid fa-people-group",},
-  { nome: "Adaptabilidade", porcentagem: 82, icone: "fa-solid fa-person-rays" },
-  { nome: "Liderança", porcentagem: 78, icone: "fa-solid fa-award" },
 ];
 
 export const Skills = () => {
