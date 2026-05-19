@@ -4,19 +4,22 @@ export const ProfileCard = () => {
   return (
     <section className={styles.ficha}>
       <img
-        src="./src/assets/guanabara-perfil.jpg"
+        src="./src/assets/renata-perfil.jpg"
         alt="Foto de Perfil"
         className={styles.foto}
       />
 
-      <h1>Gustavo Guanabara</h1>
+      <h1>Renata Stephanie</h1>
 
       <p>
-        Formado em Ciência da computação, com especialização em docência
-        superior, desenvolvimento web e Inteligência Artificial. Apaixonado por
-        tecnologia e sempre em busca de novos desafios. Atualmente, atuo como
-        professor e desenvolvedor, compartilhando conhecimento através de cursos
-        online e projetos de código aberto.
+        Desenvolvedora Junior, fã de tecnologia, graduada em Análise e
+        Desenvolvimento de Sistemas e recém formada em Desenvolvimento de
+        Aplicações Móveis. Tenho experiência em suporte técnico, base em HTML,
+        CSS, JavaScript e atualmente aprendendo a mexer com React.js, Node.js e
+        Python. Busco constantemente aprimorar minhas habilidades técnicas e
+        interpessoais, com objetivo de contribuir em projetos reais e soluções
+        tecnológicas. Tenho entusiasmo por aprendizado contínuo e por colaborar em
+        equipes que unem tecnologia, criatividade e propósito. Sou musicista as vezes e gamer nas horas vagas.
       </p>
 
       <div className={styles.social}>
