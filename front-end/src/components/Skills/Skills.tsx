@@ -12,7 +12,7 @@ const minhasSkills: ISkillItem[] = [
   { nome: "CSS", porcentagem: 70, icone: "fa-brands fa-css" },
   { nome: "JavaScript", porcentagem: 70, icone: "fa-solid fa-code" },
   { nome: "React.Js", porcentagem: 60, icone: "fa-brands fa-react" },
-  { nome: "Node.Js", porcentagem: 78, icone: "fa-brands fa-node-js" },
+  { nome: "Node.Js", porcentagem: 60, icone: "fa-brands fa-node-js" },
   { nome: "Python", porcentagem: 42, icone: "fa-brands fa-python" },
   { nome: "Inglês", porcentagem: 52, icone: "fa-solid fa-language" },
   {nome: "Trabalho em Equipe",porcentagem: 90,icone: "fa-solid fa-people-group",},
